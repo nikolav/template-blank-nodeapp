@@ -1,0 +1,17 @@
+
+###
+
+http://localhost:3344/main
+
+###
+
+POST http://localhost:3344/main
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "app.version",
+  "value": "0.0.0.template"
+}
+
+###

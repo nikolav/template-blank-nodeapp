@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 3344,
+  "public": "../public/",
+  "paginate": {
+    "default": 55,
+    "max": 122
+  },
+  "mongodb": "mongodb+srv://0K3qnYek3DR:RovrWqBrqk5@cluster0.ymotm.mongodb.net/api0?retryWrites=true&w=majority"
+}
