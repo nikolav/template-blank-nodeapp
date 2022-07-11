@@ -6,5 +6,24 @@
     "default": 55,
     "max": 122
   },
-  "mongodb": "mongodb+srv://0K3qnYek3DR:RovrWqBrqk5@cluster0.ymotm.mongodb.net/api0?retryWrites=true&w=majority"
+  "mongodb": "mongodb+srv://0K3qnYek3DR:RovrWqBrqk5@cluster0.ymotm.mongodb.net/api0?retryWrites=true&w=majority",
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "gkHMmN9glB1u+G+6MkRkxpqvtqs=",
+    "authStrategies": ["jwt", "local"],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://nikolav.rs/",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
 }
