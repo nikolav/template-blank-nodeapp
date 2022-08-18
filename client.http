@@ -5,13 +5,12 @@ http://localhost:3344/main
 
 ###
 
-POST http://localhost:3344/main
+PATCH http://localhost:3344/main/62c81d400e077835321e0796
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "app.url",
-  "value": ""
+  "value": "3"
 }
 
 ### auth
